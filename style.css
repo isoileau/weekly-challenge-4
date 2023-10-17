@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+}
+
+button {
+  background-color: #007BFF;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+#question-container {
+  display: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li.choice {
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #f4f4f4;
+  cursor: pointer;
+}
+
+#score-form {
+  display: none;
+}
+
+input[type="text"] {
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+#submit-score {
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
